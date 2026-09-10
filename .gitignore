@@ -1,0 +1,24 @@
+# latex_anki runtime state and review data
+.*.latex-anki-state.json
+.*.latex-anki-review/
+
+# Optional generated/exported files
+*.apkg
+*.colpkg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Environment / credentials
+.env
+.env.*
+!.env.example
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
